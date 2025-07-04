@@ -100,9 +100,6 @@ Desktop.ini
 *.backup
 *~
 
-# Audio files (temporarily excluded for initial push)
-assets/audio/
-
 # Large media files
 *.mp4
 *.mov
@@ -137,3 +134,5 @@ firebase_options.dart
 
 # Local configuration
 local.properties
+
+.fake
