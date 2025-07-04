@@ -182,3 +182,24 @@ This project is proprietary software. All rights reserved.
 **Last Updated**: [Current Date]  
 **Flutter Version**: 3.7.2+  
 **Dart Version**: 3.0.0+
+
+## Audio Files Setup
+
+The app expects audio files in the `assets/audio/` directory. Make sure to:
+
+1. Create the `assets/audio/` directory if it doesn't exist
+2. Add your `.mp3` audio files
+3. Update the `pubspec.yaml` if you add new audio files
+4. Run `flutter pub get` after adding new assets
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
