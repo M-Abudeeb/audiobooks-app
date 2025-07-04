@@ -1,0 +1,139 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS build artifacts
+/ios/build/
+/ios/Pods/
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Runner.xcworkspace/xcuserdata/
+
+# macOS build artifacts
+/macos/Flutter/ephemeral/
+/macos/Pods/
+
+# Windows build artifacts
+/windows/flutter/ephemeral/
+
+# Linux build artifacts
+/linux/flutter/ephemeral/
+
+# Web build artifacts
+/web/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# API keys and secrets
+**/google-services.json
+**/GoogleService-Info.plist
+**/key.properties
+**/keystore.jks
+**/keystore.properties
+
+# Debug files
+*.debug
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Audio files (temporarily excluded for initial push)
+assets/audio/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+logs/
+*.log.*
+
+# Test coverage
+coverage/
+*.lcov
+
+# Generated files
+generated_plugin_registrant.dart
+generated_plugin_registrant.cc
+generated_plugin_registrant.h
+generated_plugins.cmake
+
+# Firebase
+.firebase/
+firebase_options.dart
+
+# FVM (Flutter Version Management)
+.fvm/
+
+# Local configuration
+local.properties
